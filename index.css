@@ -1,0 +1,156 @@
+
+/*NAVBAR*/
+.navbar {
+    background-color: #ffffff;
+  }
+  .navbar-nav .nav-link {
+    color: #000000;
+    font-size: 1.1rem;
+    transition: all 0.5s;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .navbar-nav .nav-item {
+      padding: 0 0.5rem;
+    }
+    .navbar-brand {
+      font-size: 1.5rem;
+    }
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: #fcc0ec;
+  }
+
+  /*SECTION*/
+
+  section [class^="container"] {
+    padding: 4rem 2rem;
+  }
+
+  @media screen and (min-width: 1024px) {
+    section [class^="container"] {
+      padding: 4rem;
+    }
+    nav [class^="container"] {
+      padding: 0 4rem;
+    }
+  }
+
+  section:not(:first-of-type) {
+    text-align: center;
+  }
+
+  section:nth-child(2n) {
+    background-color: #fcc0ec;
+  }
+
+  a {
+    color: #000000;
+    text-decoration: none;
+    transition: all .3s;
+  }
+
+  a:not(.btn):hover {
+    color: #fcc0ec;
+  }
+
+
+
+  section .card {
+    border: 2px solid #000000;
+    box-shadow: 4px 4px #000000;
+    transition: all 0.4s;
+    margin-inline: auto;
+  }
+
+  section .card, .btn-outline-dark {
+    border: 2px solid #000000;
+    box-shadow: 4px 4px #fcc0ec;
+    transition: all 0.4s;
+  }
+
+  section .card, .btn-outline-dark:hover {
+    box-shadow: 4px 4px #fcc0ec;
+  }
+
+  /*HERO*/
+
+  section.hero {
+    background-color: #fcc0ec;
+    padding-top: 30px;
+  }
+
+  @media screen and (max-width: 576px) {
+    section.hero {
+      text-align: center;
+    }
+
+    section.hero img {
+      width: 70%;
+    }
+  }
+
+  section.hero p {
+    margin-top: 20px;
+  }
+
+
+  /*ABOUT*/
+
+  @media screen and (min-width: 1024px) {
+    section.about .container {
+      width: 75%;
+    }
+  }
+
+
+  /*PROJECTS*/
+
+  section.projects .card {
+    max-width: 17rem;
+    text-align: left;
+  }
+
+
+  /*CONTACT*/
+  section.contact .social-media a {
+    padding: 0.5 0.5rem;
+    font-size: 1.3rem;
+  }
+
+
+  /*IMAGES*/
+
+  img {
+    align-self: center;
+    max-width: 150px; 
+    height: 150px;
+    flex-grow: 1;
+  }
+ 
+
+  .card-img-overlay{
+    height: 75%;
+    display: block;
+    opacity: 0.6
+  }
+
+  #ludolabo {
+    width: 122px;
+    height: 125px;
+  }
+
+  #s2_sql {
+    width: 190px;
+    height: 122px;
+  }
+
+  #titanic {
+    width: 190px;
+    height: 122px;
+  }
+
+ 
+  
+  
